@@ -1,0 +1,42 @@
+.jumbotron{
+  background-image: url(../cv.png);
+  background-size: cover;
+  height: 100vh;
+  transition: 0.5s;
+  opacity:0;
+}
+
+.nav-item{
+  margin-right: 50px;
+  margin-left: 5px;
+}
+.nav-item:hover{
+  background-color: gray;
+  transition: 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.nav-link:hover {
+color: rgb(220, 222, 224) !important;
+}
+.nav{
+  background-color: #0001;
+}
+.btn{
+  background-color: gray;
+}
+.btn:hover{
+  background-color: white;
+  transition: 0.5s;
+}
+#main{
+  
+  background-size: cover;
+  height: 645px;
+    transition: 0.5s;
+  opacity:0;
+}
+.injumbo{
+  padding-top: 50px;
+  padding-left: 50px;
+}
